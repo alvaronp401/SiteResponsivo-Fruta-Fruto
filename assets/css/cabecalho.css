@@ -1,0 +1,22 @@
+.cabecalho {
+    align-items: center;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: space-between; /*vai colocar os elementos nos cantos*/
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+@media screen and (min-width: 0) {
+    .cabecalho {
+        padding: 0 1em;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 768px) { /*quando for maior que 768 aplica*/
+    .cabecalho {
+        padding: 0 5em;
+        justify-content: space-between;
+    }
+}

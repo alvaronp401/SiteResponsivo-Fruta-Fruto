@@ -1,0 +1,31 @@
+.receita {
+    background: #fdfdfd;
+    display: flex; /*pra se comportar como flexbox*/
+    flex-direction: column; /*n vai ser linha e sim um embaixo do outro*/
+    margin-bottom: 5em;
+    margin-right: 5em;
+    width: calc(25% - 5em); /*como ficou mais espaço na direita do q na esquerda, vamos calc*/
+}
+
+@media screen and (min-width: 0) {
+    .receita {
+        margin-right: 0;
+        width: 100%;
+        padding-right: 1em;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .receita {
+        margin-right: 2.5em;
+        width: calc(33.33% - 2.5em);
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .receita {
+        margin-right: 5em;
+        width: calc(25% - 5em);
+    }
+}

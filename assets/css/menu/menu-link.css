@@ -1,0 +1,16 @@
+.menu__link {
+    color: #808080;
+    margin: 0 1.25em 0 0;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+.menu__link.ativo  { /*quando estiver ativo vai mudar a cor dele*/
+    color: #333333;
+    font-weight: bold;
+}
+
+.menu__link:hover {
+    text-decoration: underline;
+}
+
